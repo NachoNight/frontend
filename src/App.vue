@@ -17,6 +17,7 @@ export default {
   computed: {
     ...mapState(['windowHeight']),
   },
+  mounted() {},
 };
 </script>
 
@@ -34,10 +35,8 @@ export default {
   font-family: 'Roboto', 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-height: 400px;
+  height: 100vh;
   position: relative;
-  text-align: center;
   width: 100%;
-  @include flex(center, center);
 }
 </style>
